@@ -83,7 +83,7 @@ Class Participation                |   10   |    10%   |
 | Oct. 7  | T  | Machine Learning                |   [PS #5](https://github.com/jdebacker/CompEcon_Fall25/blob/main/Econometrics/PS5.pdf)      |
 | Oct. 9  | Th   |   No class, Fall Break     ||
 | Oct. 14  | T  | Machine Learning     |        |
-| Oct. 16  | Th   | Machine Learning     |    PS #6     |
+| Oct. 16  | Th   | Machine Learning     |    [PS #6](https://github.com/jdebacker/CompEcon_Fall25/blob/main/Matching/PS6.pdf)     |
 | Oct. 21  | T  | Machine Learning     |  |
 | Oct. 23  | Th   | Dynamic Programming                 |        |
 | Oct. 28  | T  | Dynamic Programming                 |     PS #7   |
