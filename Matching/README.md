@@ -3,7 +3,7 @@ This module of the course covers empirical matching models as an application to 
 
 ## 1. Notes on Empirical Matching Model
 * [Two-sided matching models notes from class](https://github.com/jdebacker/CompEcon_Fall25/blob/main/Matching/Notes_MatchingTheory.pdf)
-<!-- * [Maximum Score Estimator notes from class](https://github.com/jdebacker/CompEcon_Fall25/blob/main/Matching/Notes_MaxScoreEstimator.pdf) -->
+* [Maximum Score Estimator notes from class](https://github.com/jdebacker/CompEcon_Fall25/blob/main/Matching/Notes_MaxScoreEstimator.pdf)
 
 
 ## 2. Papers
