@@ -20,7 +20,6 @@ This module of the course covers the basics of machine learning, its application
 3. Quantitative theory
    1. [Kasy (2018)](https://scholar.harvard.edu/files/kasy/files/policydecisions.pdf)
 
-
 ## 3. Notebooks illustrating machine learning tools in Python
 * [Model Fitting and Validation](https://github.com/jdebacker/CompEcon_Fall25/blob/main/MachineLearning/FittingValidation.ipynb)
 * [Model Selection](https://github.com/jdebacker/CompEcon_Fall25/blob/main/MachineLearning/ModelSelection.ipynb)
