@@ -2,7 +2,7 @@ name: econ833-env
 channels:
 - conda-forge
 dependencies:
-- python>=3.9, <3.13
+- python>=3.11, <3.14
 - numpy
 - ipython
 - scipy>=1.7.1
@@ -43,10 +43,6 @@ dependencies:
   - plotly-express
   - pyreadstat
   - tables
-  - paramtools
-  - taxcalc
   - ogcore
-  - regpyhdfe
-  - FixedEffectModelPyHDFE
   - stargazer
   - rdd
