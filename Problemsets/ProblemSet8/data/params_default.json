@@ -1,0 +1,29 @@
+{
+  "alpha": 0.6956,
+  "gamma": 0.1331,
+  "rho": 0.0976,
+  "sigma": 0.8932,
+  "phi_tilde_0": 0.0,
+  "delta": 0.15,
+  "beta": 0.95,
+  "p": 1.0,
+  "phi1": 0.0,
+  "N_K": 600,
+  "K_min": 1e-06,
+  "K_max": 50.0,
+  "N_A": 7,
+  "N_firms": 1000,
+  "T": 50,
+  "burn_in": 50,
+  "moment_targets": {
+    "a1": 0.03,
+    "a2": 0.24,
+    "sc_IK": 0.4,
+    "std_pi_K": 0.25,
+    "mean_q": 3.0,
+    "ext_frac": 0.25
+  },
+  "vfi_tol": 1e-06,
+  "vfi_maxiter": 2000,
+  "random_seed": 2025
+}

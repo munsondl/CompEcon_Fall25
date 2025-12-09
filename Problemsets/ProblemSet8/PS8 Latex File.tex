@@ -1,0 +1,101 @@
+\documentclass[12pt]{article}
+
+% ------------------------------
+% Packages
+% ------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+	
+	\begin{center}
+		{\Large \textbf{Problem Set 8 --- Munson}}\\[0.5em]
+		Replication Cooper \& Ejarque (2003)
+	\end{center}
+	
+	\vspace{1em}
+	
+	% --------------------------------------------------
+	% BLUEPRINT OF CODE MODULES
+	% --------------------------------------------------
+	
+	\section*{Replication Blueprint: Code Modules Needed}
+	
+	Organizational plan for the computational implementation.
+	
+	\begin{enumerate}
+		\item \textbf{Module A: Parameter Initialization}\\
+		Store fixed parameters ($\beta, \delta, p$), initial guesses for 
+		structural parameters $(\alpha, \gamma, \rho, \sigma, \tilde\phi_0)$, 
+		and grid sizes.
+		
+		\item \textbf{Module B: Tauchen Discretization of the Shock Process}\\
+		Construct the Markov chain for the profitability shock $A$ using 
+		Tauchen's method: produce grid points and transition matrix $P_A$.
+		
+		\item \textbf{Module C: Capital Grid Construction}\\
+		Create a grid for capital $K$ (e.g., 600 points for the costly external 
+		finance model). Define $K_{\min}$, $K_{\max}$, and spacing.
+		
+		\item \textbf{Module D: Profit and Adjustment Cost Functions}\\
+		Implement 
+		\[
+		\pi(K,A)=A K^\alpha, \qquad
+		C(K',K)=\frac{\gamma}{2}\Big(\frac{K'-(1-\delta)K}{K}\Big)^2 K.
+		\]
+		
+		\item \textbf{Module E: Bellman Solver}\\
+		Solve the dynamic optimization problem allowing for two cases:
+		\begin{itemize}
+			\item internal finance (no external cost),
+			\item external finance (pay fixed cost $\tilde\phi_0$).
+		\end{itemize}
+		For each state $(K,A)$ compute value and choose the maximizing 
+		$K'$ and regime.
+		
+		\item \textbf{Module F: Compute Policy-Implied Variables}\\
+		From $K'(K,A)$ compute investment $I$, average $Q=V(K,A)/K$, profits, 
+		and external-finance indicator.
+		
+		\item \textbf{Module G: Panel Simulation}\\
+		Simulate a panel of firms (e.g.\ 1000 firms $\times$ 50 periods) using 
+		the policy functions and Markov process for $A$.
+		
+		\item \textbf{Module H: Compute Simulated Moments}\\
+		From the simulated panel compute:
+		\begin{itemize}
+			\item $a_1,a_2$ from the Q regression,
+			\item serial correlation of $I/K$,
+			\item standard deviation of $\pi/K$,
+			\item mean average $Q$,
+			\item fraction of externally financed investment.
+		\end{itemize}
+		
+		\item \textbf{Module I: SMM Objective Function}\\
+		Construct 
+		\[
+		J(\Theta)=\left(\Psi_d - \Psi_s(\Theta)\right)' 
+		W \left(\Psi_d - \Psi_s(\Theta)\right),
+		\]
+		using target moments $\Psi_d$ from the paper and simulated moments 
+		$\Psi_s(\Theta)$.
+		
+		\item \textbf{Module J: Optimization Routine}\\
+		Search over $\Theta$ to minimize $J(\Theta)$ using global+local methods.
+		
+		\item \textbf{Module K: Standard Errors (Optional)}\\
+		Estimate covariance of simulated moments and apply SMM sandwich formula.
+		
+		\item \textbf{Module L: Output \& Table Construction}\\
+		Format the estimated parameters and simulated moments to reproduce 
+		Table~3.
+	\end{enumerate}
+
+	\section*{Unable to converge}
+	Unfortunately I could not get my code to converge to the papers parameters.  I've tried implementing multiple tests and fixes but have been unable to find a solution to make the code converge.
+
+\end{document}

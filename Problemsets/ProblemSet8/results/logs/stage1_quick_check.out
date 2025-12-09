@@ -1,0 +1,9 @@
+Objective J: 44.8267728321926
+Simulated moments (stationary):
+{'a1': -2.651393229858322e-16,
+ 'a2': 6.0,
+ 'ext_frac': 0.08767172272594179,
+ 'mean_q': 6.344048286328265,
+ 'sc_IK': 1.0000000000000004,
+ 'std_pi_K': 0.531537601919939}
+Saved results/stage1_quick_check.json

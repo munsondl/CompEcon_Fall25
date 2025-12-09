@@ -1,0 +1,33 @@
+Starting optimization with mapping = ['alpha', 'gamma', 'rho', 'sigma', 'phi_tilde_0']
+Initial theta0 = [0.6956 0.1331 0.0976 0.8932 0.    ]
+Running global search...
+[opt] eval=10  best=35.0523  last=120.493  elapsed=2.9s
+[opt] eval=20  best=35.0523  last=290.081  elapsed=4.2s
+[opt] eval=30  best=35.0523  last=351481  elapsed=5.5s
+[opt] eval=40  best=35.0523  last=2.75069e+08  elapsed=6.8s
+[opt] eval=50  best=5.49148  last=86.3895  elapsed=8.3s
+[opt] eval=60  best=5.49148  last=63.4016  elapsed=10.1s
+[opt] eval=70  best=5.49148  last=831.401  elapsed=11.8s
+[opt] eval=80  best=5.49148  last=122.917  elapsed=14.4s
+[opt] eval=90  best=5.49148  last=69.8357  elapsed=15.8s
+[opt] eval=100  best=5.49148  last=19665.5  elapsed=17.0s
+[opt] eval=110  best=5.49148  last=44.4323  elapsed=18.2s
+[opt] eval=120  best=5.49148  last=50.3101  elapsed=19.3s
+[opt] eval=130  best=5.49148  last=37.6703  elapsed=20.5s
+[opt] eval=140  best=5.49148  last=44.4857  elapsed=21.9s
+[opt] eval=150  best=5.49148  last=55.1909  elapsed=23.7s
+[opt] eval=160  best=5.49148  last=44.6092  elapsed=24.9s
+[opt] eval=170  best=5.49148  last=59.2576  elapsed=26.0s
+[opt] eval=180  best=5.49148  last=44.8828  elapsed=27.2s
+[opt] eval=190  best=5.49148  last=222.354  elapsed=28.5s
+[opt] eval=200  best=5.49148  last=11.2103  elapsed=30.2s
+[opt] eval=210  best=5.49148  last=68.8611  elapsed=31.3s
+[opt] eval=220  best=5.49148  last=49.9907  elapsed=32.5s
+[opt] eval=230  best=5.49148  last=122.388  elapsed=33.7s
+[opt] eval=240  best=5.49148  last=44909.6  elapsed=34.8s
+[opt] eval=250  best=5.49148  last=39.0238  elapsed=36.4s
+[opt] eval=260  best=5.49148  last=44.3636  elapsed=38.0s
+[opt] eval=270  best=5.49148  last=675723  elapsed=39.2s
+[opt] eval=280  best=4.79133  last=5.06093  elapsed=40.3s
+Global search finished (method=differential_evolution, time=40.3s). Best J = 4.79133
+Running local refinement (L-BFGS-B)...
