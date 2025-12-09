@@ -85,21 +85,21 @@ Class Participation                |   10   |    10%   |
 | Oct. 14  | T  | Machine Learning     |        |
 | Oct. 16  | Th   | Machine Learning     |    [PS #6](https://github.com/jdebacker/CompEcon_Fall25/blob/main/Matching/PS6.pdf)     |
 | Oct. 21  | T  | Machine Learning     |  |
-| Oct. 23  | Th   | Dynamic Programming                 |        |
-| Oct. 28  | T  | Dynamic Programming                 |     PS #7   |
-| Oct. 30   | Th   | Dynamic Programming                       |   |
+| Oct. 23  | Th   | Machine Learning                 |        |
+| Oct. 28  | T  | Dynamic Programming                 |      |
+| Oct. 30   | Th   | Dynamic Programming              |  [PS #7](https://github.com/jdebacker/CompEcon_Fall25/blob/main/MachineLearning/PS7.pdf)   |
 | Nov. 4   | T  | Discrete Choice Dynamic Programming      |         |
 | Nov. 6  | Th   | TBD    |      |
 | Nov. 11  | T  | Simulated Method of Moments          |        |
-| Nov. 13  | Th   | Neural Networks             |        |
-| Nov. 18  | T  | Neural Networks                  |    PS # 8    |
+| Nov. 13  | Th   | Intro to Neural Networks             |        |
+| Nov. 18  | T  | Overlapping Generations Models                  |        |
 | Nov. 20  | Th  |   Overlapping Generations Models             |        |
 | Nov. 25  | T   | No class, Thanksgiving      |  |
 | Nov. 27  | Th   | No class, Thanksgiving     |  |
-| Dec. 2   | T   | Overlapping Generations Models      |        |
-| Dec. 4   | Th   | Overlapping Generations Models      | PS # 9       |
+| Dec. 2   | T   |   Deep Nets in DPPs   |       [PS # 8](https://github.com/jdebacker/CompEcon_Fall25/blob/main/DynamicProgramming/PS8.pdf) |
+| Dec. 4   | Th   | Deep Nets in DPPs     | [PS # 9](https://github.com/jdebacker/CompEcon_Fall25/blob/main/OverlappingGenerations/PS9.pdf)       |
 |          |     |                                     |        |
-| Dec. 11  | Th   | No Final Exam - **final project due**         |   |
+| Dec. 11  | Th   | No Final Exam - **final project due**         |  [Final Project](https://github.com/jdebacker/CompEcon_Fall25/blob/main/FinalProject.pdf) |
 
 
 ## Helpful Links ##
