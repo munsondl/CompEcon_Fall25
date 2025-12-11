@@ -1,0 +1,17 @@
+{
+  "beta": 0.96,
+  "grid_k_min": 0.0,
+  "grid_k_max": 10.0,
+  "grid_n": 11.0,
+  "operation_cost": 160.0,
+  "fixed_cost": 25.0,
+  "price_per_fleet_unit": 180.0,
+  "depreciation": 0.1,
+
+  "spot_rate": 190.0,
+  "shock_rho": 0.75,
+  "shock_sigma": 20.0,
+
+  "results_dir": "results",
+  "figures_dir": "results/figures"
+}

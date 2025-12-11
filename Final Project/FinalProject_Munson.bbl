@@ -1,0 +1,20 @@
+\begin{thebibliography}{}
+
+\bibitem[FreightWaves, 2025]{freightwaves2025}
+FreightWaves (2025).
+\newblock Truckload spot rates: spikes are telling us something.
+\newblock Accessed: 2025-12-11.
+
+\bibitem[Harris and Nguyen, 2023]{harris2023long}
+Harris, A. and Nguyen, A. (2023).
+\newblock Long-term relationships and the spot market: Evidence from us
+  trucking.
+\newblock Technical report, MIT / Yale (working paper).
+\newblock Working paper; contains evidence on spot vs contract market dynamics.
+
+\bibitem[Miller, 2019]{miller2018arima}
+Miller, J.~W. (2019).
+\newblock Arima time series models for full truckload transportation prices.
+\newblock {\em Forecasting}, 1(1):121--134.
+
+\end{thebibliography}

@@ -1,0 +1,12 @@
+Simulation summary
+==================
+mean_fleet: 5.8
+median_fleet: 5.5
+std_fleet: 3.6249137920783716
+mean_profit_k: 105.16184429627847
+mean_revenue_k: 1168.8997117226331
+mean_return_on_capital: 0.37513596252763337
+median_profit_k: 41.0
+pct_time_at_k0: 3.5000000000000004
+
+Notes: profits and revenues are in thousands. ROC uses price(z)=price_base*(z/spot_mean).
